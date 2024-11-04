@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+  text-wrap: wrap;
+  padding: 0;
+  margin: 0;
+}
+
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #4C4B16;
+}
+
+.main {
+  padding: 20px;
+  position: absolute;
+  width: 100%;
+  color: antiquewhite;
+}
+
+.main section {
+  padding: 20px;
+  margin-bottom: 1000px;
+}
