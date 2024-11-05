@@ -19,7 +19,11 @@ canvas {
   color: antiquewhite;
 }
 
+/* .swiper {
+  height: 100vh;
+  width: 100vw;
+} */
+
 .main section {
   padding: 20px;
-  margin-bottom: 1000px;
 }
