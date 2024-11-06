@@ -4,6 +4,7 @@ import 'swiper/css';
 
 export const swiper = new Swiper('.swiper', {
 	direction: 'horizontal',
+	centeredSlides: true,
 	modules: [Keyboard, Mousewheel],
 	keyboard: {
 		enabled: true,

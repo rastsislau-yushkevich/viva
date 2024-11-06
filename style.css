@@ -15,15 +15,35 @@ canvas {
 .main {
   padding: 20px;
   position: absolute;
-  width: 100%;
+  width: 100vw;
+  height: 100vh;
   color: antiquewhite;
+  display: flex;
+  align-items: center;
 }
 
 /* .swiper {
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
 } */
+
+.swiper-wrapper {
+  display: flex;
+  align-items: center;
+}
 
 .main section {
   padding: 20px;
+}
+
+.slide {
+  display: flex !important;
+  justify-content: space-between;
+  gap: 300px;
+}
+
+.slide .slide-content {
+  background-color: rgba(179, 167, 161, 0.4);
+  padding: 20px;
+  border-radius: 5px;
 }
